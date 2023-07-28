@@ -68,6 +68,10 @@ p{
     margin-bottom: 22px;
 }
 
+.alexa-chose span, .you-chose span{
+    font-size: 20px;
+}
+
 .alexa-chose{
     position: absolute;
     right: 0;
