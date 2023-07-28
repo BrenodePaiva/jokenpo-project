@@ -1,9 +1,5 @@
 
-const button = document.querySelector("button")
 
-const playHuman = (humanChoise) => {
- console.log(button.id)
+const playHuman = (humanChoiser) => {
+ console.log(humanChoiser)
 }
-
-button.addEventListener("click", playHuman())
-
