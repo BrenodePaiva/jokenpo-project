@@ -1,5 +1,5 @@
 
 
 const playHuman = (humanChoiser) => {
- console.log(humanChoiser)
+ console.log(humanChoiser) 
 }
