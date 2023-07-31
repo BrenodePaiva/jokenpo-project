@@ -10,19 +10,19 @@
     <main>
         <h1>JokenPô</h1>
         <div class="button-box">
-            <button id="rock" onclick="playHuman('rock')" >&#9994;</button>
-            <button id="paper" onclick="playHuman('paper')" >&#9995;</button>
-            <button id="scissors" onclick="playHuman('scissors')" >&#9996;</button>
+            <button id="rock" onclick="playHuman('rock', '&#9994;')" >&#9994;</button>
+            <button id="paper" onclick="playHuman('paper', '&#9995;')" >&#9995;</button>
+            <button id="scissors" onclick="playHuman('scissors', '&#9996;')" >&#9996;</button>
         </div>
         <p class="result"></p>
 
-        <div class="chose">
-            <p class="you-chose">Você: <span></span> </p>
-            <p class="alexa-chose"> <span></span> :Alexa </p>
+        <div class="choce">
+            <p class="you-choce">Você: <span id="you-choce-icon"></span> </p>
+            <p class="alexa-choce"> <span id="alexa-choce-icon"></span> :Alexa </p>
         </div>
 
-        <p class="you">Sua Pontuação: <span>0</span></p>
-        <p class="alexa">Pontuação da Alexa: <span>0</span></p>
+        <p class="you">Sua Pontuação: <span id="human">0</span></p>
+        <p class="alexa">Pontuação da Alexa: <span id="machine">0</span></p>
 
     </main>
 </body>
