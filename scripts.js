@@ -23,7 +23,7 @@ const playTheGame = (human, machine) => {
     const machineScore = document.querySelector("#machine")
 
     if (human === machine) {
-        result.innerHTML = "Deu Empate! &#129309;"
+        result.innerHTML = "Deu Empate! &#128079;"
 
     } else if (human === "rock" && machine === "scissors" || 
               (human === "paper" && machine === "rock") || 
